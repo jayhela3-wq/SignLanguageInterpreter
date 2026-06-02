@@ -1,5 +1,3 @@
-!pip install mediapipe opencv-python
-
 from tensorflow.keras.models import load_model
 model = load_model('/content/asl_model.keras')
 print('Model Loaded Successfully')
